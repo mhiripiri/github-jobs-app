@@ -1,7 +1,7 @@
 import React from "react";
 import { Form, Col } from "react-bootstrap";
 
-export default function SearchForm() {
+export default function SearchForm({params, onParamChange}) {
   return (
     <div>
       <Form className="mb-4">
